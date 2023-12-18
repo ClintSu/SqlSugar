@@ -93,7 +93,7 @@ namespace SqlSugar
                   new KeyValuePair<string, CSharpDataType>("tinyint",CSharpDataType.@short),
                   new KeyValuePair<string, CSharpDataType>("smallint",CSharpDataType.@short),
                   new KeyValuePair<string, CSharpDataType>("integer",CSharpDataType.@int),
-                  new KeyValuePair<string, CSharpDataType>("interval year to  month",CSharpDataType.@int),
+                  new KeyValuePair<string, CSharpDataType>("interval year to month",CSharpDataType.@int),
                   new KeyValuePair<string, CSharpDataType>("interval day to second",CSharpDataType.TimeSpan),
                   new KeyValuePair<string, CSharpDataType>("intervalds",CSharpDataType.TimeSpan),
 
@@ -138,12 +138,8 @@ namespace SqlSugar
                  
                   new KeyValuePair<string, CSharpDataType>("timestamp with local time zone",CSharpDataType.DateTime),
                   new KeyValuePair<string, CSharpDataType>("timestamp with time zone",CSharpDataType.DateTime),
-                  new KeyValuePair<string, CSharpDataType>("timestamp with time zone",CSharpDataType.DateTime),
-
-
 
                   new KeyValuePair<string, CSharpDataType>("timestamp with local time zone",CSharpDataType.DateTimeOffset),
-                  new KeyValuePair<string, CSharpDataType>("timestamp with time zone",CSharpDataType.DateTimeOffset),
                   new KeyValuePair<string, CSharpDataType>("timestamp with time zone",CSharpDataType.DateTimeOffset),
 
                   new KeyValuePair<string, CSharpDataType>("time",CSharpDataType.TimeSpan),
